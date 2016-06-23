@@ -11,7 +11,7 @@ profile:
         Experienced Quality Engineer with diverse background in automation,
         systems administration, networking, and working remote.
 
-    image: "https://avatars1.githubusercontent.com/u/9010160?v=3&s=460"
+    image: "images/jesse.jpg"
     website: https://jesse.cloud
 
     networks:
@@ -25,7 +25,7 @@ profile:
 
 work:
     -   company: Hudl (Sports video streaming)
-        image: "http://i.imgur.com/ROlgU0V.png"  
+        image: "images/hudl.png"
         role: Quality Engineer (Remote)
         website: http://www.hudl.com
         date: Sept. 2014 - Present
@@ -64,7 +64,7 @@ work:
                 Mentor to new employees
                 
     -   company: Avere Systems (NAS acceleration)
-        image: "http://i.imgur.com/HYFK2L7.png"
+        image: "images/avere.png"
         role: Software QA Engineer (Remote)
         date: Feb. 2013 - Aug. 2014
         website: http://www.averesystems.com/
@@ -95,7 +95,7 @@ work:
                 management and configuration, and GUI
 
     -   company: Avere Systems
-        image: "http://i.imgur.com/HYFK2L7.png"
+        image: "images/avere.png"
         role: Customer Experience Engineer
         date: Jul. 2011 - Feb. 2013
         summary: >
@@ -143,7 +143,7 @@ work:
                 Participated in weekly 24x7 on-call rotation
 
     -   company: LocalNet Corp. (Largest privately held ISP in US)
-        image: "http://i.imgur.com/cdyaLDa.png"
+        image: "images/localnet.png"
         role: Linux Systems Administrator
         website: http://www.localnet.com/
         summary: >
@@ -215,7 +215,7 @@ work:
                 off hours, usually 2-6am, many times involving coordination with other departments
 
     -   company: Ingram Micro (World's largest tech distributor)
-        image: "http://i.imgur.com/1BmAjpG.png"
+        image: "images/ingram.png"
         role: Technical Support Engineer II 
         website: http://www.ingrammicro.com/
         date: Sept. 2006 - Feb. 2009
@@ -263,7 +263,7 @@ work:
                 Directory/IIS/Exchange servers
 
     -   company: Cyber Source (SMB Web Hosting/Office Networking)
-        image: "http://i.imgur.com/vhxVxpp.png"
+        image: "images/cybersource.png"
         role: Admin/System Builder/Web Developer
         date: Jan. 2002 - Sept. 2006
         highlights:
