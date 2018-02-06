@@ -7,12 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ profile.name }} - Resume</title>
   <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="images/favicon.ico">
   <style>
     body {
       font-family: "Source Sans Pro";
     }
 
     h3 {
+      font-weight: bold; 
       margin-top: 0.5em;
     }
 
@@ -37,7 +39,7 @@
     section ul {
       margin-top: 1em;
     }
-    
+
     img.logo {
       height: 50px;
     }
@@ -59,6 +61,7 @@
 
     .item {
       border-bottom: 1px solid #eee;
+      padding-top: 5px;
     }
 
     .item:last-child {
@@ -78,8 +81,8 @@
         <header class="main row">
           <div class="header">
             <div class="col-md-6 col-sm-12">
+              <h3 class="pull-right">{{ profile.label }}</h3>
               <h1>{{ profile.name }}</h1>
-              <h3>{{ profile.label }}</h3>
             </div>
 
 
@@ -91,7 +94,7 @@
           <div class="">
             <div class="col-md-6 col-sm-12">
               <ul class="list-unstyled">
-                <li><b>Address:</b> {{ profile.address }}</li>
+                <li><b>Location:</b> {{ profile.address }}</li>
                 <li><b>Phone:</b> {{ profile.phone }}</li>
                 <li><b>Email:</b> <a href="mailto:{{ profile.email }}">{{ profile.email }}</a></li>
                 <li><b>Websites:</b></li>
@@ -110,32 +113,25 @@
 
         {% if profile.summary %}
         <section class="row">
-          <header class="col-md-3">
-            <h3>About</h3>
-          </header>
           <div class="col-md-9">
-            <h3></h3> {{ h.md(profile.summary) }}
+            <strong><i>{{ h.md(profile.summary) }}</i></strong>
           </div>
         </section>
         {% endif %} {% if work %}
-        <section class="row">
-          <header class="col-md-3">
-            <h3>{{ labels.work or 'Work Experience' }}</h3>
-          </header>
+        <section class="row" style="padding-top: 0; margin-top: 0;">
           <div class="col-md-9">
             {% for exp in work %}
             <div class="item">
               {% if exp.image %}
-              <h3><img class="logo" src="{{exp.image}}" alt="{{ exp.company }}"></h3>
+              <h3 class="pull-right"><img class="logo" src="{{exp.image}}" alt="{{ exp.company }}"></h3>
               {% else %}
               <h3>{{ exp.company }}</h3>
-              {% endif %} {% if exp.website %}
+              {% endif %}
+              {% if exp.website %}
               <p class="sticky">
                 <a href="{{ exp.website }}">{{ exp.company }}</a>
               </p>
-              {% else %}
-              <p class="sticky">{{ exp.company }}</p>
-              {% endif %}
+              {% endif %} 
               <strong>{{ exp.role }}</strong> {% if exp.date %}
               <p class="sticky">{{ exp.date }}</p>
               {% endif %} {% if exp.summary %}
@@ -248,7 +244,6 @@
           </div>
         </section>
         {% endif %}
-
 
       </div>
     </div>

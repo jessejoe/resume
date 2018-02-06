@@ -5,4 +5,5 @@ build/
 *.sublime-project
 *.sublime-workspace
 bower_components/
-config.make
+.python-version
+.DS_Store

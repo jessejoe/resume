@@ -3,11 +3,11 @@
 
 # Put these into config.make to override with your setup
 RESUME ?= resumes/example.yaml
-RSYNC_LOCATION ?= example.com:/var/www/resume/
+PUBLISH_LOCATION ?= ../resume/
 
 PYTHON ?= $(shell which python3)
-RSYNC ?= $(shell which rsync)
-RSYNC_ARGS ?= aAXv
+CP ?= $(shell which cp)
+CP_ARGS ?= r
 BUILD_DIR ?= build
 BUILD_ARGS ?= --output_dir $(BUILD_DIR)
 BUILD ?= $(PYTHON) build.py $(BUILD_ARGS)
@@ -25,7 +25,7 @@ pdf:
 	$(BUILD) --format pdf $(RESUME)
 
 clean:
-	@rm -rf ./build
+	@rm -rf $(BUILD_DIR)
 
 publish:
-	$(RSYNC) -$(RSYNC_ARGS) $(BUILD_DIR) $(RSYNC_LOCATION)
+	$(CP) -$(CP_ARGS) $(BUILD_DIR)/* $(PUBLISH_LOCATION)

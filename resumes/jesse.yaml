@@ -1,29 +1,57 @@
-
-# Example resume
-
 profile:
     name: Jesse Jarzynka
-    label: Quality Engineer
+    label: Automation Engineer
     email: j@jesse.cloud
     phone: 716-222-2325
     address: Williamsville, NY
     summary: >
-        Experienced Quality Engineer with diverse background in automation,
-        systems administration, networking, and working remote.
+        Experienced Automation Engineer with diverse background in automated testing, release engineering, systems administration, networking, and working remote.
 
     image: "images/jesse.jpg"
-    website: https://jesse.cloud
+    website: http://jesse.cloud
 
     networks:
+        -   provider: github
+            username: jessejoe
+            url: https://github.com/jessejoe
+
         -   provider: github
             username: jessehudl
             url: https://github.com/jessehudl
 
         -   provider: github
-            username: jessejoe
-            url: https://github.com/jessejoe
+            username: jessecarbon
+            url: https://github.com/jessecarbon
 
+labels:
+    work: Experience
 work:
+    -   company: Carbon Black (Endpoint Security)
+        image: "images/carbonblack.png"
+        role: Senior Software Development Engineer in Test
+        website: https://www.carbonblack.com/
+        date: Aug. 2016 - Present
+        summary: Automation, continuous integration, QA testing
+        highlights:
+            - > 
+                Help design and implement automated testing suite for multiple products
+            - > 
+                Automate existing manual test cases and test plans to free up manual tester time and provide more coverage
+            - >
+                Work with Release Engineering to hook automation and testing into the build process
+            - >
+                Assist with containerizing the product with Docker in order to deploy on-demand test environments
+            - > 
+                Evangelize and promote automation across the company and leadership
+            - >
+                Mentor existing engineers on best practices and provide code reviews
+            - >
+                Collaborate with developers on improving system quality and establishing efficient and thorough testing
+            - >
+                Assist DevOps and Systems Engineering teams on creating test environments, test labs, and consult on technologies and products used
+            - >
+                Interview new hire candidates across roles
+
     -   company: Hudl (Sports video streaming)
         image: "images/hudl.png"
         role: Quality Engineer (Remote)
@@ -32,36 +60,25 @@ work:
         summary: Automation, continuous integration, QA testing
         highlights:
             - > 
-                Author and maintain scalable and expandable automated testing
-                framework in Python for Selenium (web) and Appium (mobile)
-                testing, as well as HTTP/REST/GraphQL integration testing
+                Authored and maintained scalable and expandable automated testing framework in Python for Selenium (web) and Appium (mobile) testing, as well as HTTP/REST/GraphQL integration testing
             - >
-                Add new automation, tests, and CI across many different areas
-                of the product team and internal infrastructure, wherever is
-                needed
+                Added new automation, tests, and CI across many different areas of the product team and internal infrastructure, wherever needed
             - >
-                Provide code review and assistance to other quality engineers
-                and analysts
+                Provided code reviews and assistance to other Quality Engineers and Analysts
             - > 
-                Help maintain Hudl's AWS cloud infrastructure and participate
-                in on-call rotation
+                Helped maintain Hudl's AWS cloud infrastructure and participated in on-call rotation
             - >
-                Document limitations and continually push for improvements to
-                infrastructure and processes to increase testing consistency
+                Documented limitations and continually pushed for improvements to infrastructure and processes to increase testing consistency
             - >
-                Interview, grade projects, and help hire dozens of candidates
-                across all roles including interns, developers, PMs, and VPs
+                Interviewed, graded projects, and helped hire dozens of candidates across all roles including interns, engineers, PMs, and VPs
             - >
-                Co-leader of "Security Guild", focused on security related
-                issues at Hudl, and best practices
+                Co-lead "Security Guild", focused on security related issues at Hudl, and best practices
             - >
-                Continually research new technologies, testing frameworks, and
-                libraries
+                Continually researched new technologies, testing frameworks, and libraries
             - >
-                Improve and push bug fixes upstream to open source projects
-                Hudl uses
+                Improved and pushed bug fixes upstream to open source projects Hudl uses
             - >
-                Mentor to new employees
+                Mentored new employees
                 
     -   company: Avere Systems (NAS acceleration)
         image: "images/avere.png"
@@ -71,72 +88,47 @@ work:
         summary: Tested products and features to maintain quality and find bugs
         highlights:
             - >
-                Responsible for writing software automation for testing and
-                debugging Avere products
+                Responsible for writing software automation for testing and debugging Avere products
             - >
-                Worked with developers finding, fixing, and verifying product
-                bugs and solutions
+                Worked with developers finding, fixing, and verifying product bugs and solutions
             - >
-                Discovered weaknesses or enhancements that make the product
-                better or easier to use
+                Discovered weaknesses or enhancements that make the product better or easier to use
             - >
                 Wrote and improved existing test plans and documentation
             - >
-                Verified new product features are well tested and working
-                properly before shipping
+                Verified new product features are well tested and working properly before shipping
             - >
-                Worked with members of all levels of staff with limited
-                supervision
+                Worked with members of all levels of staff with limited supervision
             - >
-                Implemented Selenium web testing framework for cross-browser
-                automation
+                Implemented Selenium web testing framework for cross-browser automation
             - >
-                Test focus areas: advanced networking, installation/upgrade,
-                management and configuration, and GUI
+                Test focus areas: advanced networking, installation/upgrade, management and configuration, and GUI
 
     -   company: Avere Systems
         image: "images/avere.png"
         role: Customer Experience Engineer
         date: Jul. 2011 - Feb. 2013
         summary: >
-            Member of team of versatile support engineers handling all customer
-            and internal support requests
+            Member of team of versatile support engineers handling all customer and internal support requests
         highlights:
             - >
-                Required to be resourceful and efficient in order to solve
-                issues with minimal training or documentation
+                Required to be resourceful and efficient in order to solve issues with minimal training or documentation
             - >
-                Utilizing a large variety of skill sets to take each issue
-                from initial troubleshooting to resolution including
-                log/statistic analysis, internal troubleshooting commands, OS 
-                debugging, packet capture analysis, internal process tracing
-                and debugging, as well as engaging engineers when necessary
+                Utilizing a large variety of skill sets to take each issue from initial troubleshooting to resolution including log/statistic analysis, internal troubleshooting commands, OS debugging, packet capture analysis, internal process tracing and debugging, as well as engaging engineers when necessary
             - >
-                Required to discover root cause of each issue, including
-                isolation to outside problems not related to the Avere product
-                such as switch or routing problems, network bottlenecks,
-                hardware failures, back-end storage communication, etc.
+                Required to discover root cause of each issue, including isolation to outside problems not related to the Avere product such as switch or routing problems, network bottlenecks, hardware failures, back-end storage communication, etc.
             - >
-                Direct customer interaction via phone, email, and desktop
-                sharing resolving a wide range of issues from initial
-                configuration, to performance analysis, to complex
-                network/storage/product troubleshooting
+                Direct customer interaction via phone, email, and desktop sharing resolving a wide range of issues from initial configuration, to performance analysis, to complex network/storage/product troubleshooting
             - > 
-                Required to document, collect data, and reproduce issues in
-                house if possible, providing engineers with as much information
-                as possible to fix software issues
+                Required to document, collect data, and reproduce issues in house if possible, providing engineers with as much information as possible to fix software issues
             - >
-                Providing feedback on product shortcomings, product
-                enhancements, and customer pains
+                Providing feedback on product shortcomings, product enhancements, and customer pains
             - >
-                Interfacing with all aspects of company including sales,
-                engineers, marketing, customers, devops, etc.
+                Interfacing with all aspects of company including sales, engineers, marketing, customers, devops, etc.
             - >
-                Trained new engineers as well as interviewing potential new 
-                candidates
+                Trained new engineers as well as interviewing potential new candidates
             - >
-                Wrote tools and scripts for customer configuration, data
-                analysis, and visualization
+                Wrote tools and scripts for customer configuration, data analysis, and visualization
             - >
                 Documented common problems and solutions
             - >
@@ -152,67 +144,36 @@ work:
         date: Feb. 2009 - Jul. 2011
         highlights:
             - >
-                One of only two local admins who were responsible for all
-                server hardware installation, troubleshooting and maintenance
-                including being trusted with full security access to all
+                One of only two local admins who were responsible for all server hardware installation, troubleshooting and maintenance including being trusted with full security access to all
                 buildings, hardware, and software
             - >
-                Regularly on-call in rotation with other admins, as well as
-                "hands-on" on-call for remote admins when hardware needs
-                physical interaction or maintenance
+                Regularly on-call in rotation with other admins, as well as "hands-on" on-call for remote admins when hardware needs physical interaction or maintenance
             - >
-                Performed complete power audit of server infrastructure and
-                found that power could be reduced between $13-15k per year by
-                virtualizing physical servers
+                Performed complete power audit of server infrastructure and found that power could be reduced between $13-15k per year by virtualizing physical servers
             - >
-                Created VMware ESXi infrastructure and began complete
-                physical-to-virtual conversion of entire server infrastructure,
-                even manually converting outdated servers that rely on
-                unsupported hardware
+                Created VMware ESXi infrastructure and began complete physical-to-virtual conversion of entire server infrastructure, even manually converting outdated servers that rely on unsupported hardware
             - >
-                Greatly improved server infrastructure by instituting RAID on
-                core non-load-balanced servers as well as helped roll out
-                completely customized Nagios monitoring system
+                Greatly improved server infrastructure by instituting RAID on core non-load-balanced servers as well as helped roll out completely customized Nagios monitoring system
             - >
-                Upgraded customer database from an outdated version of MySQL to
-                new updated hardware with RAID w/BBWC, replication, optimized
-                configuration settings, and appropriate tables converted to
-                InnoDB from MyISAM with performance improvements of 500% in
-                some cases, all with less than 3 hours of downtime
+                Upgraded customer database from an outdated version of MySQL to new updated hardware with RAID w/BBWC, replication, optimized configuration settings, and appropriate tables converted to InnoDB from MyISAM with performance improvements of 500% in some cases, all with less than 3 hours of downtime
             - >
-                Set up new load-balanced webmail front end and customized
-                distributed email system serving over 250,000 customers in
-                order to institute server side email filtering, without any
-                disruption to email delivery
+                Set up new load-balanced webmail front end and customized distributed email system serving over 250,000 customers in order to institute server side email filtering, without any disruption to email delivery
             - >
-                Inventoried entire server infrastructure using open source
-                software creating complete audit of hardware and software on
-                all servers
+                Inventoried entire server infrastructure using open source software creating complete audit of hardware and software on all servers
             - >
-                Designed server hardware for digital signage distributed
-                enterprise server product
+                Designed server hardware for digital signage distributed enterprise server product
             - >
-                Set up LTSP environment for the company’s call center, re-using
-                old Pentium III desktop PCs distributed across multiple servers
-                saving the company thousands of dollars on machines for tech
-                agents, and giving complete control over what they can do and
-                access
+                Set up LTSP environment for the company’s call center, re-using old Pentium III desktop PCs distributed across multiple servers saving the company thousands of dollars on machines for tech agents, and giving complete control over what they can do and access
             - >
-                Designated “hardware guy” for all equipment, have built and
-                troubleshot hundreds of servers in a completely heterogeneous
-                environment from many different vendors
+                Designated “hardware guy” for all equipment, have built and troubleshot hundreds of servers in a completely heterogeneous environment from many different vendors
             - >
-                Responsible for documenting all completed projects as well as
-                interviewing/training of new admins
+                Responsible for documenting all completed projects as well as interviewing/training of new admins
             - >
-                Daily monitoring and support of email systems, distributed
-                hosting environments, and disk/tape backups
+                Daily monitoring and support of email systems, distributed hosting environments, and disk/tape backups
             - >
-                Kept servers patched for vulnerabilities and compliant with
-                TrustKeeper/Trustwave auditing
+                Kept servers patched for vulnerabilities and compliant with TrustKeeper/Trustwave auditing
             - >
-                Dozens of upgrade/security maintenance windows performed during
-                off hours, usually 2-6am, many times involving coordination with other departments
+                Dozens of upgrade/security maintenance windows performed during off hours, usually 2-6am, many times involving coordination with other departments
 
     -   company: Ingram Micro (World's largest tech distributor)
         image: "images/ingram.png"
@@ -221,46 +182,25 @@ work:
         date: Sept. 2006 - Feb. 2009
         highlights:
             - >
-                Pre-sales infrastructure and design consultation with worldwide
-                VAR accounts to design and configure solutions for business
-                needs in the areas of networking, wireless, IP telephony,
-                servers/blades, PCs, fibre channel storage, load balancing, and
-                others
+                Pre-sales infrastructure and design consultation with worldwide VAR accounts to design and configure solutions for business needs in the areas of networking, wireless, IP telephony, servers/blades, PCs, fibre channel storage, load balancing, and others
             - >
-                Post-sales configuration and troubleshooting of Cisco networks
-                including routers, switches/chassis, voice gateways, firewalls,
-                IP Telephony and Unified Communications, as well as Linux
-                software deployments
+                Post-sales configuration and troubleshooting of Cisco networks including routers, switches/chassis, voice gateways, firewalls, IP Telephony and Unified Communications, as well as Linux software deployments
             - >
-                Maintenance, configuration, and redesign of a fully functional
-                internal enterprise network for hundreds of users including
-                servers, tape libraries and SAN
+                Maintenance, configuration, and redesign of a fully functional internal enterprise network for hundreds of users including servers, tape libraries and SAN
             - >
-                Level 2 technician with responsibility of full knowledge of the
-                supported products including escalations from level 1 technicians
+                Level 2 technician with responsibility of full knowledge of the supported products including escalations from level 1 technicians
             - >
-                Training for new technicians, licensing specialists, and
-                re-sellers in person or via WebEx on all areas of technology
-                including networking, systems/servers, storage, and power
+                Training for new technicians, licensing specialists, and re-sellers in person or via WebEx on all areas of technology including networking, systems/servers, storage, and power
             - >
-                Proactively discovering gaps in knowledge of the team and
-                resolving via team or 1-on-1 training sessions
+                Proactively discovering gaps in knowledge of the team and resolving via team or 1-on-1 training sessions
             - >
-                Provided feedback in multiple areas of Ingram Micro's business
-                directly resulting in improvement of business operations,
-                expenses, efficiency, and reliability including in house
-                applications, remotely located servers and networking equipment
+                Provided feedback in multiple areas of Ingram Micro's business directly resulting in improvement of business operations, expenses, efficiency, and reliability including in house applications, remotely located servers and networking equipment
             - >
-                Leader in Ingram Micro's World Class Tech Support which is
-                renowned worldwide as the best in distribution including
-                consistently being voted \#1 by CRN magazine and CompTIA;
-                excelling in consistency, accuracy, and prompt response
+                Leader in Ingram Micro's World Class Tech Support which is renowned worldwide as the best in distribution including consistently being voted \#1 by CRN magazine and CompTIA; excelling in consistency, accuracy, and prompt response
             - >
-                Leader of the F5 Networks team including off-site training on
-                BIG-IP from F5 in NYC
+                Leader of the F5 Networks team including off-site training on BIG-IP from F5 in NYC
             - >
-                Installation and configuration of Windows Active
-                Directory/IIS/Exchange servers
+                Installation and configuration of Windows Active Directory/IIS/Exchange servers
 
     -   company: Cyber Source (SMB Web Hosting/Office Networking)
         image: "images/cybersource.png"
@@ -268,22 +208,17 @@ work:
         date: Jan. 2002 - Sept. 2006
         highlights:
             - >
-                Linux systems administrator including configuration and regular
-                maintenance of production e-mail, web, and backup servers
+                Linux systems administrator including configuration and regular maintenance of production e-mail, web, and backup servers
             - >
                 Website authoring and maintaining
             - >
-                Linux desktop installer including configuration of end user
-                ready Linux machines for home or office use including VMware
-                Workstation, Server, and Player
+                Linux desktop installer including configuration of end user ready Linux machines for home or office use including VMware Workstation, Server, and Player
             - >
-                Configuration and installation of medium-sized office networks
-                including LAN, WAN, and on-site calls
+                Configuration and installation of medium-sized office networks including LAN, WAN, and on-site calls
             - >
                 Building complete systems/servers unsupervised
             - >
-                Repairing and troubleshooting software and hardware errors of
-                desktops/laptops
+                Repairing and troubleshooting software and hardware errors of desktops/laptops
 
 skills:
     -   area: Programming
@@ -292,17 +227,21 @@ skills:
             - Bash, experienced
             - CSS/HTML/HTML5, intermediate
             - Javascript
-            - Perl/PHP
+            - Ruby
+            - PHP, Perl, Java
 
     -   area: Technology
         skills:
             - Automation/Scripting
-            - JMeter load testing
             - All major versions of Linux, Windows, OS X, FreeBSD
             - Networking and packet analysis (tcpdump/Wireshark, etc.)
             - Building servers/hardware from consumer to enterprise
-            - Amazon Web Services (EC2, S3, Lambda, etc.)
-            - Git/Github, SVN, CVS, etc.
+            - Amazon Web Services (AWS) (EC2, S3, Lambda, etc.)
+            - Containers (Docker, Kubernetes, etc.)
+            - Continuous Integration (Jenkins, TeamCity, GitLab CI, Travis CI)
+            - Graylog, ELK (Elasticsearch, Logstash, Kibana)
+            - JMeter load testing
+            - Git/Github/Gitlab, SVN, CVS, etc.
             - MySQL, PostgreSQL
             - SAN/NFS/NAS
             - VMware, Xen, OpenVZ, VirtualBox
@@ -318,6 +257,7 @@ education:
 certifications:
     - CCNA - Cisco Certified Network Associate
     - PyCon 2016
+    - Selenium Conf Austin 2017
 
 config:
     theme: simple-dualversions

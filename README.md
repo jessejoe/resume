@@ -25,6 +25,12 @@ This script requires `Python 3` and a set of libraries with their dependencies:
     WeasyPrint
     docopt
 
+These also have external dependencies on `cairo`, `pango`, and `gdk-pixbuf`
+(possibly others), on OSX they can be installed with:
+```
+brew install cairo pango gdk-pixbuf
+```
+
 Usage
 -----
 

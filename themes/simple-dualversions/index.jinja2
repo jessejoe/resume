@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ profile.name }} - Resume</title>
   <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="images/favicon.ico">
   <style>
     body {
       font-family: "Source Sans Pro";
@@ -67,6 +68,10 @@
 
     header.main h3 {
       margin-top: 0.3em;
+    }
+
+    table.opensource th, td {
+      padding: 0.5em;
     }
   </style>
 </head>
@@ -138,7 +143,7 @@
             <h3></h3> {{ h.md(profile.summary) }}
           </div>
         </section>
-        {% endif %} {% if work %}
+        {% endif %}{% if work %}
         <section class="row">
           <header class="col-md-3">
             <h3>{{ labels.work or 'Work Experience' }}</h3>
