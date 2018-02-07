@@ -25,6 +25,90 @@ profile:
 
 labels:
     work: Experience
+    opensource: Selected Open Source Contributions
+opensource:
+    personal:
+        -   project: boom-client
+            summary: Library for controlling the Boom Equalizer software for Mac, reverse engineered from packet captures
+            language: Python
+            urls:
+                - >
+                    https://github.com/jessejoe/boom_client
+
+        -   project: kisi-python
+            summary: Client and scripts for interacting with the KISI lock API
+            language: Python
+            urls:
+                - >
+                    https://github.com/jessejoe/kisi-python
+
+        -   project: Streaming Album Playlist Maker
+            summary: Script to create playlists from lists of album names for music services like Spotify
+            language: Python
+            urls:
+                - >
+                    https://github.com/jessejoe/streaming_album_playlist_maker
+
+    outside:
+        -   project: linux-nfs
+            summary: "[BUG] Caching bug in the readdirplus operation in the NFS client of the Linux kernel"
+            language: C
+            urls:
+                - >
+                    https://www.spinics.net/lists/linux-nfs/msg34682.html
+                - >
+                    https://www.spinics.net/lists/linux-nfs/msg34729.html
+                - >
+                    https://docs.google.com/document/d/1saQV-yRXCnmLDWrNd2korc-TiAo9eMPf1WwoSej7rJU/edit?usp=sharing
+
+        -   project: Selenium
+            summary: "[BUG] When a Windows client is killed, Grid nodes can leave sessions/browsers open indefinitely"
+            language: Java
+            urls:
+                - >
+                    https://github.com/SeleniumHQ/selenium/issues/2332
+
+        -   project: Appium
+            summary: "[BUG] Can no longer specify browserName with Grid desiredcaps"
+            language: JavaScript
+            urls:
+                - >
+                    https://github.com/appium/appium/issues/6412
+                - >
+                    https://github.com/appium/appium-ios-driver/pull/127
+                - >
+                    https://github.com/appium/appium-android-driver/pull/139
+
+        -   project: Graylog/collector-sidecar
+            summary: "[ENHANCEMENT] Specify OS when building packages so they can be built on Mac"
+            language: Ruby
+            urls:
+                - >
+                    https://github.com/Graylog2/collector-sidecar/pull/94/files
+
+        -   project: Golang service library
+            summary: "[BUG] SysV init script can lead to multiple processes running"
+            language: Go/Bash
+            urls:
+                - >
+                    https://github.com/kardianos/service/issues/78
+                - >
+                    https://github.com/kardianos/service/pull/79
+
+        -   project:
+            summary: "[ENHANCEMENT] Add support for loading environment variables from optional file"
+            language: Go/Bash
+            urls:
+                - >
+                    https://github.com/kardianos/service/pull/80
+
+        -   project: BitBar
+            summary: "[ENHANCEMENT] Add more advanced VPN status/connection script"
+            language: Bash
+            urls:
+                - >
+                    https://github.com/matryer/bitbar-plugins/pull/388
+
 work:
     -   company: Carbon Black (Endpoint Security)
         image: "images/carbonblack.png"
@@ -33,15 +117,17 @@ work:
         date: Aug. 2016 - Present
         summary: Automation, continuous integration, QA testing
         highlights:
-            - > 
+            - >
                 Help design and implement automated testing suite for multiple products
-            - > 
+            - >
                 Automate existing manual test cases and test plans to free up manual tester time and provide more coverage
             - >
                 Work with Release Engineering to hook automation and testing into the build process
             - >
+                Implemented Graylog (ELK) for log monitoring in test environments to monitor hard to find bugs and crashes
+            - >
                 Assist with containerizing the product with Docker in order to deploy on-demand test environments
-            - > 
+            - >
                 Evangelize and promote automation across the company and leadership
             - >
                 Mentor existing engineers on best practices and provide code reviews
@@ -56,16 +142,16 @@ work:
         image: "images/hudl.png"
         role: Quality Engineer (Remote)
         website: http://www.hudl.com
-        date: Sept. 2014 - Present
+        date: Sept. 2014 - Aug. 2016
         summary: Automation, continuous integration, QA testing
         highlights:
-            - > 
+            - >
                 Authored and maintained scalable and expandable automated testing framework in Python for Selenium (web) and Appium (mobile) testing, as well as HTTP/REST/GraphQL integration testing
             - >
                 Added new automation, tests, and CI across many different areas of the product team and internal infrastructure, wherever needed
             - >
                 Provided code reviews and assistance to other Quality Engineers and Analysts
-            - > 
+            - >
                 Helped maintain Hudl's AWS cloud infrastructure and participated in on-call rotation
             - >
                 Documented limitations and continually pushed for improvements to infrastructure and processes to increase testing consistency
@@ -79,7 +165,7 @@ work:
                 Improved and pushed bug fixes upstream to open source projects Hudl uses
             - >
                 Mentored new employees
-                
+
     -   company: Avere Systems (NAS acceleration)
         image: "images/avere.png"
         role: Software QA Engineer (Remote)
@@ -119,7 +205,7 @@ work:
                 Required to discover root cause of each issue, including isolation to outside problems not related to the Avere product such as switch or routing problems, network bottlenecks, hardware failures, back-end storage communication, etc.
             - >
                 Direct customer interaction via phone, email, and desktop sharing resolving a wide range of issues from initial configuration, to performance analysis, to complex network/storage/product troubleshooting
-            - > 
+            - >
                 Required to document, collect data, and reproduce issues in house if possible, providing engineers with as much information as possible to fix software issues
             - >
                 Providing feedback on product shortcomings, product enhancements, and customer pains
@@ -177,7 +263,7 @@ work:
 
     -   company: Ingram Micro (World's largest tech distributor)
         image: "images/ingram.png"
-        role: Technical Support Engineer II 
+        role: Technical Support Engineer II
         website: http://www.ingrammicro.com/
         date: Sept. 2006 - Feb. 2009
         highlights:

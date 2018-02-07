@@ -97,7 +97,7 @@
             <div class="col-md-6 col-sm-12">
               <dl class="contacts dl-horizontal">
 
-                <dt>Address:</dt>
+                <dt>Location:</dt>
                 <dd>{{ profile.address }}</dd>
 
                 <dt>Phone:</dt>
@@ -129,7 +129,14 @@
                         </a>
                 </li>
                 {% endfor %}
-              </ul>
+              </ul>{% if opensource %}
+              <ul class="opensource list-inline text-right">
+                <li>
+                  <a href="opensource.html">
+                            {{ labels.opensource or 'Open Source' }}
+                        </a>
+                </li>
+              </ul>{% endif %}
             </div>
           </div>
         </header>

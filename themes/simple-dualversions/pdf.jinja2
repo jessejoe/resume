@@ -106,7 +106,15 @@
                   </a>
                 </li>
                 {% endfor %}
-              </ul>
+              </ul>{% if opensource %}
+              <ul class="opensource list-inline text-right">
+                <li>
+                  {# Hardcoded to jessejoe.com since multiple domains don't work with Github sites nicely #}
+                  <a href="http://jessejoe.com/opensource.html">
+                            {{ labels.opensource or 'Open Source' }}
+                        </a>
+                </li>
+              </ul>{% endif %}
             </div>
           </div>
         </header>
