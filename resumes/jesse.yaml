@@ -109,6 +109,13 @@ opensource:
                 - >
                     https://github.com/matryer/bitbar-plugins/pull/388
 
+        -   project: Falcon
+            summary: "[BUG] Fix flake8 errors and add additional linting coverage as part of PyCon 2016 Open Source sprints"
+            language: Python
+            urls:
+                - >
+                    https://github.com/falconry/falcon/pull/808
+
 work:
     -   company: Carbon Black (Endpoint Security)
         image: "images/carbonblack.png"
