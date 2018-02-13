@@ -119,7 +119,7 @@ opensource:
 work:
     -   company: Carbon Black (Endpoint Security)
         image: "images/carbonblack.png"
-        role: Senior Software Development Engineer in Test
+        role: Senior Software Development Engineer in Test (Remote)
         website: https://www.carbonblack.com/
         date: Aug. 2016 - Present
         summary: Automation, continuous integration, QA testing
