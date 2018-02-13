@@ -84,7 +84,7 @@ opensource:
             language: Ruby
             urls:
                 - >
-                    https://github.com/Graylog2/collector-sidecar/pull/94/files
+                    https://github.com/Graylog2/collector-sidecar/pull/94
 
         -   project: Golang service library
             summary: "[BUG] SysV init script can lead to multiple processes running"
