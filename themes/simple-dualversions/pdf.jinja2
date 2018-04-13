@@ -41,8 +41,8 @@
     }
 
     img.logo {
-      max-height: 50px;
-      max-width: 200px;
+      max-height: 50px !important;
+      max-width: 200px !important;
     }
 
     img.photo {
@@ -132,13 +132,17 @@
             {% for exp in work %}
             <div class="item">
               {% if exp.image %}
-              <h3 class="pull-right"><img class="logo" src="{{exp.image}}" alt="{{ exp.company }}"></h3>
+              <h3><img class="logo" src="{{exp.image}}" alt="{{ exp.company }}"></h3>
               {% else %}
               <h3>{{ exp.company }}</h3>
               {% endif %}
               {% if exp.website %}
               <p class="sticky">
                 <a href="{{ exp.website }}">{{ exp.company }}</a>
+              </p>
+              {% else %}
+              <p class="sticky">
+                {{ exp.company }}
               </p>
               {% endif %} 
               <strong>{{ exp.role }}</strong> {% if exp.date %}
