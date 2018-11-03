@@ -79,6 +79,13 @@ opensource:
                 - >
                     https://github.com/appium/appium-android-driver/pull/139
 
+        -   project: Twine
+            summary: "[ENHANCEMENT] Print the response content when upload fails"
+            language: Python
+            urls:
+                - >
+                    https://github.com/pypa/twine/pull/337
+
         -   project: Graylog/collector-sidecar
             summary: "[ENHANCEMENT] Specify OS when building packages so they can be built on Mac"
             language: Ruby
@@ -109,12 +116,38 @@ opensource:
                 - >
                     https://github.com/matryer/bitbar-plugins/pull/388
 
+        -   project: Ics.py
+            summary: "[BUG] Improve TRIGGER DURATION parsing logic"
+            language: Python
+            urls:
+                - >
+                    https://github.com/C4ptainCrunch/ics.py/pull/148
+
+        -   project: Spotipy
+            summary: "[ENHANCEMENT] Add cache_path as a parameter to prompt_for_user_token()"
+            language: Python
+            urls:
+                - >
+                    https://github.com/plamere/spotipy/issues/167
+                - >
+                    https://github.com/plamere/spotipy/pull/169
+
         -   project: Falcon
             summary: "[BUG] Fix flake8 errors and add additional linting coverage as part of PyCon 2016 Open Source sprints"
             language: Python
             urls:
                 - >
                     https://github.com/falconry/falcon/pull/808
+
+    talks:
+        -   project: "Intro to pdb or: How I Found a bug in Requests"
+            location: Local Python Meetup
+            date: 10/19/2017
+            urls:
+                - >
+                    http://jessejoe.com/other/intro_to_pdb/slides/
+                - >
+                    https://www.meetup.com/Python-Buffalo/events/243473519/
 
 work:
     -   company: Carbon Black (Endpoint Security)

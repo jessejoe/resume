@@ -225,6 +225,40 @@
                 {% endfor %}
               </tbody>
             </table>
+            <table align="center">
+              <thead>
+                <tr>
+                  <th colspan=4 style="text-align: center"><h4>Talks</h4></th>
+                <tr class="border_bottom">
+                  <th>Project</th>
+                  <th>Date</th>
+                  <th>Location</th>
+                  <th>URLs</th>
+                </tr>
+              </thead>
+              <p></p>
+              <tbody>
+                {% for contrib in opensource.talks %}
+                <tr>
+                  <td>
+                  {% if contrib.project %}
+                    {{ contrib.project }}
+                  {% else %}
+                  {% endif %}
+                  </td>
+                  <td>{{ contrib.date }}</td>
+                  <td>{{ contrib.location }}</td>
+                  <td>
+                  {% if contrib.urls %}
+                    {% for line in contrib.urls %}
+                    <a href="{{ line }}">[{{ loop.index }}]</a>
+                    {% endfor %}
+                  {% endif %}
+                  </td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
           </div>
         </section>
         {% endif %}       
